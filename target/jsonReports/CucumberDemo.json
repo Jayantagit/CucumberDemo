@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-02T08:58:45.142Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7859000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDef.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "This scenario is to test the Invalid Sign In Scenario",
+        "description": "",
+        "id": "sign-in-module-scenarios;this-scenario-is-to-test-the-invalid-sign-in-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 293000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDef.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 860000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already in the LoginPage",
+            "match": {
+              "location": "com.qa.StepDef.LoginPageTests.user_is_already_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9678000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the wrong \"Test@gmail.com\" And User enter the wrong \"Test@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Test@1234\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.qa.StepDef.LoginPageTests.user_enter_the_wrong_and_user_enter_the_wrong(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Error message will appear",
+            "match": {
+              "location": "com.qa.StepDef.LoginPageTests.error_message_will_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Sign In Module Scenarios",
+    "description": "",
+    "id": "sign-in-module-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]

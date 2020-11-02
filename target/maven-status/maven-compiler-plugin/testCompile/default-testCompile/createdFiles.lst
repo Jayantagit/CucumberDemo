@@ -1,0 +1,3 @@
+com\qa\StepDef\Hooks.class
+com\qa\TestRunner\TestRunner.class
+com\qa\StepDef\LoginPageTests.class
